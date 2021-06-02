@@ -29,7 +29,7 @@ BEGIN
 END
 >
 
-CALL novoAlun('', 5, '2001-01-31', 100, 6.0, 'Marconis Julionis', 'marcaojuli@gmail.com');
+CALL novoAlun('0', 5, '2001-01-31', 100, 6.0, 'Marconis Julionis', 'marcaojuli@gmail.com');
 SELECT * FROM Aluno;
 
 
